@@ -255,3 +255,50 @@
   text-align: center;
   padding: 0.5rem 1.5rem;
 }
+.similar-projects-section {
+  background-color: #FAFAFA;
+  padding: 5rem 0;
+}
+.similar-projects-section__title {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #1E3B92;
+}
+.similar-projects-section__footer {
+  display: flex;
+  justify-content: center;
+}
+.similar-projects-section .similar-projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 24px;
+}
+.similar-projects-section .similar-projects-list .views-row {
+  width: 100%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.similar-projects-section .link-view-all-projects {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2445A6;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+.similar-projects-section .project-image .image-style-project-thumbnail {
+  object-fit: cover;
+}
+.similar-projects-section .project-image:hover .image-style-project-thumbnail {
+  object-fit: contain;
+}
