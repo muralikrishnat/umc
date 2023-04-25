@@ -21097,7 +21097,7 @@ ul.clearfix.nav.navbar-nav::after {
 }
 
 .project-active-progress {
-  background-color: #FAFAFA;
+  background-color: white;
 }
 
 .project-active-progress .boxed-container {
