@@ -1,0 +1,23 @@
+{
+  "name": "saved-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "lessc styles.less styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muralikrishnat/umc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muralikrishnat/umc/issues"
+  },
+  "homepage": "https://github.com/muralikrishnat/umc#readme",
+  "dependencies": {
+    "less": "^4.1.3"
+  }
+}

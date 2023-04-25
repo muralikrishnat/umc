@@ -1,0 +1,257 @@
+.project-detail-wrapper .project-detail-section {
+  display: flex;
+}
+.project-detail-wrapper .project-detail-section__left {
+  flex: 5;
+}
+.project-detail-wrapper .project-detail-section__left .profile-project-section {
+  display: flex;
+}
+.project-detail-wrapper .project-detail-section__profile-info {
+  flex: 1 1 30%;
+  width: 30%;
+}
+.project-detail-wrapper .project-detail-section__profile-info .teacher-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #111111;
+  margin-top: 0.625rem;
+}
+.project-detail-wrapper .project-detail-section__profile-info .teacher-profile__img {
+  max-width: 80px;
+}
+.project-detail-wrapper .project-detail-section__profile-info .school-details {
+  padding: 0.625rem 0;
+}
+.project-detail-wrapper .project-detail-section__profile-info .school-details .teacher-class {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #1E3B92;
+  font-weight: 500;
+}
+.project-detail-wrapper .project-detail-section__profile-info .school-details .school-name {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5rem;
+}
+.project-detail-wrapper .project-detail-section__profile-info .school-details .school-city {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #111111;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.project-detail-wrapper .project-detail-section__profile-info .school-details .school-city::before {
+  content: url('https://upgrademyclassroom.org/themes/custom/umc/images/location-Icon.svg');
+  width: 14px;
+  height: 16px;
+  margin-right: 0.34rem;
+}
+.project-detail-wrapper .project-detail-section__project-info {
+  flex: 4 1 70%;
+  padding-left: 1rem;
+}
+.project-detail-wrapper .project-detail-section__project-info .project-eyebrow {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
+.project-detail-wrapper .project-detail-section__project-info .project-title {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #1E3B92;
+}
+.project-detail-wrapper .project-detail-section__project-info .project-description {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3rem;
+  color: #111111;
+  opacity: 0.8;
+}
+.project-detail-wrapper .project-detail-section__project-info .enclose-quote {
+  color: #1E3B92;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  opacity: 0.8;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+.project-detail-wrapper .project-detail-section__project-info .enclose-quote::before {
+  content: open-quote;
+}
+.project-detail-wrapper .project-detail-section__project-info .enclose-quote::after {
+  content: close-quote;
+}
+.project-detail-wrapper .project-detail-section___right {
+  flex: 1;
+}
+.project-detail-wrapper .project-detail-section .share-section__text {
+  text-align: right;
+  color: #3E3E3D;
+}
+.project-detail-wrapper .project-detail-section .share-section__icons .social-icon-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project-detail-wrapper .project-detail-section .share-section__icons .social-icon-list li {
+  margin-left: 1.5rem;
+}
+.project-detail-wrapper .project-detail-section .share-section__icons .social-icon-list li img {
+  max-width: 20px;
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .project_tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .project_tags li {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 0.77);
+  padding: 0.5rem 1rem;
+  border: 1px solid #FDBE10;
+  border-radius: 100px;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .donor-details .para-text {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .donor-details__count {
+  font-weight: 600;
+  color: #111111;
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .donor-details .profiles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  margin-top: 1.5rem;
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .donor-details .profiles__img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  box-shadow: 0px 0px 1px 0px black;
+}
+.project-detail-wrapper .project-detail-section__tags-contributions .donor-details .profiles__img:not(:first-child) {
+  margin-left: -10px;
+  -webkit-transform: rotateY(-1deg);
+  transform: rotateY(-1deg);
+}
+.project-detail-wrapper .project-detail-section__progress-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress {
+  flex: 1;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .donation-amt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .amt-total {
+  font-weight: 700;
+  font-size: 1.1875rem;
+  line-height: 1.625rem;
+  color: #1E3B92;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .amt-remaining {
+  font-size: 1.1875rem;
+  line-height: 1.625rem;
+  color: #1E3B92;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .progress-wrapper {
+  position: relative;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .progress-wrapper .progress {
+  border-radius: 100px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #F2F2F2;
+  position: relative;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .progress-wrapper .progress .progress-bar {
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width 0.6s ease;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .progress-wrapper .progress-complete-icon {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 26px;
+  display: none;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .progress-wrapper.completed .progress-bar {
+  background-color: #2AC28B;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .progress-wrapper.completed .progress-complete-icon {
+  display: block;
+}
+.project-detail-wrapper .project-detail-section__progress-bar .donation-progress .project-remaining-days {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #111111;
+  opacity: 0.6;
+  text-align: right;
+  margin-top: 0.75rem;
+}
+.hidden {
+  display: none;
+}
+.btn-primary {
+  width: auto;
+  margin-top: 0rem;
+  display: inline-block;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  border-radius: 100px;
+  border: none;
+  background-color: #1E3B92;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
